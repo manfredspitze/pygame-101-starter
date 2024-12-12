@@ -1,4 +1,4 @@
-A helpful mnemonic device for your students to remember the sequence of code needed to create a basic game window template in Pygame.
+Use the phrase below to remember the sequence of code needed to create a basic game window template in Pygame.
 
 **"I Set Up Games"**
 
@@ -9,14 +9,14 @@ This stands for:
 - **U** - **Update the display**: `pygame.display.flip()`
 - **G** - **Game loop**: Set up the main loop to keep the game running.
 - **A** - **Activate events**: Use `pygame.event.get()` to capture events (like quitting).
-- **M** - **Maintain the game window**: Use `screen.fill()` to change background color.
+- **M** - **Maintain the game window**: Use `screen.fill()` to change the background color of the window.
 - **E** - **Exit**: Close the game when the quit event happens (`pygame.quit()`).
 
 ---
 
-### How the mnemonic works:
+### Summary:
 
-- **"I"**: Start by initializing Pygame so that all necessary modules are ready.
+- **"I"**: Start by initializing Pygame so that all necessary modules are ready when you run your script.
 - **"Set Up"**: Set the window size with `pygame.display.set_mode()`.
 - **"Games"**: Loop through the game events and update the screen, keeping the game window running.
 
